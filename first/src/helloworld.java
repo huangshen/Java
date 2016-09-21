@@ -1,6 +1,6 @@
 /** hello world program */
 
-import java.util.*;
+//import java.util.*;
 
 
 public class helloworld {

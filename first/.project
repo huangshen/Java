@@ -14,16 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/ATypeName.java</name>
-			<type>1</type>
-			<locationURI>PARENT-3-PROJECT_LOC/Java/first/ATypeName.java</locationURI>
-		</link>
-		<link>
-			<name>src/helloworld.java</name>
-			<type>1</type>
-			<locationURI>PARENT-3-PROJECT_LOC/Java/first/helloworld.java</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>
