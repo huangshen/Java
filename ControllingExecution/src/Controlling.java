@@ -32,7 +32,7 @@ public class Controlling {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		int result;
 		result = test(0, 1);
 		System.out.println(result);
