@@ -1,7 +1,8 @@
 import shenh.mypackage.*;
 import static shenh.myutil.Print.*;
+import shenh.mycookie.*;
 
-public class AccessControlDemo {
+public class AccessControlDemo extends Cookie {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -14,5 +15,7 @@ public class AccessControlDemo {
 		printnb(100 + " "); printnb(1.5 + " "); printnb("hello");
 		print();
 		printf("a = %d\n", 1);
+		
+		Bite();
 	}
 }

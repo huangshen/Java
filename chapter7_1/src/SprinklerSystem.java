@@ -19,11 +19,4 @@ public class SprinklerSystem {
 	public String toString() {
 		return "value = " + value + " " + "source = " + source; 
 	}
-	
-	public static void main(String[] args) {
-		SprinklerSystem sprinkler = new SprinklerSystem();
-		//WaterSource water = new WaterSource();
-		System.out.print(sprinkler);
-		//System.out.print(water);
-	}
 }
