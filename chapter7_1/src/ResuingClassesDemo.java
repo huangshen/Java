@@ -54,5 +54,9 @@ public class ResuingClassesDemo {
 		d.dilute();
 		System.out.println(d);
 		
+		// Demo for inheritance&composition
+		CadSystem s = new CadSystem(1);
+		s.dispose();
+		
 	}
 }

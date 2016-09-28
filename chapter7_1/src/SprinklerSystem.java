@@ -3,7 +3,7 @@ class WaterSource {
 	private String s;
 	
 	WaterSource() {
-		System.out.print("WaterSource" + "\n");
+		System.out.print("WaterSource constructo" + "\n");
 		s = "Constructed";
 	}
 	
