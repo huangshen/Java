@@ -2,6 +2,7 @@ package shenh.graphics;
 
 import javax.swing.*;
 import java.util.concurrent.*;
+import java.util.*;
 
 public class GraphDemo {
 
@@ -9,12 +10,17 @@ public class GraphDemo {
 		JFrame frame = new JFrame("Hello!");
 		JLabel label = new JLabel("A label");
 		
+		// JLabel & JFrame
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(300, 100);
 		frame.add(label);
 		frame.setVisible(true);
-		//TimeUnit.SECONDS.sleep(2);
+		try {
+			TimeUnit.SECONDS.sleep(2);
+		} catch (Exception ex) {
+			
+		}
 		label.setText("Changed");
+		System.out.println("Program exit.");
 	}
-
 }
